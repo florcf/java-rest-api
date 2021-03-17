@@ -28,6 +28,7 @@ public class ApplicationConfig extends Application{
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(es.cifpcm.java.rest.api.services.CorsFilter.class);
         resources.add(es.cifpcm.java.rest.api.services.TiendaRest.class);
     }
 }
