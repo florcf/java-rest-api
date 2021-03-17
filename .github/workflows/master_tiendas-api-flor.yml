@@ -29,5 +29,5 @@ jobs:
       with:
         app-name: 'tiendas-api-flor'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fb99c92b8515478786554e407fd82964 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_409824dd41ea4acba1e40c2115cec180 }}
         package: '${{ github.workspace }}/target/*.war'
